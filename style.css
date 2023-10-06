@@ -48,6 +48,7 @@ header, footer {                  /* geldt voor header en footer */
   margin: 10px 0px;
 }
 
+
 main {                       
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
@@ -130,7 +131,19 @@ nav li a.active {
   float: right;
   width: 450px;
 }
-
+#oorsprong{
+  background-color: rgb(118,214,97);
+  width:70%;
+  height: 200px;
+  overflow:auto;
+  float: left;
+  margin-left:100px;
+  margin-bottom: 6px;
+  
+}
+#titel-oorsprong{
+border-style: solid;
+}
 /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
