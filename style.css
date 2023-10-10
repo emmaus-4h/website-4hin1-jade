@@ -121,11 +121,8 @@ nav li a.active {
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
-.item-plaatje {
-  float: left;
-  width: 250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
-}
+ /* zorgt dat plaatje niet tegen tekst komt */
+
 
 .item-tekst {
   float: right;
@@ -146,7 +143,12 @@ border-style: solid;
 }
 #wat-is-irish-tapdance{
   border-style: solid;
+  color: rgb(74, 139, 60);
  
+}
+#home:hover{
+  background-color: rgb(118,214,97)
+
 }
 /************************* SUBPAGINA *************************/
 
