@@ -81,7 +81,9 @@ a:hover {                         /* <a> als je er met de muis op staat */
   text-align: center;
   font-size: 0.7em;
 }
-
+.belangrijk{
+color: rgb(100, 143, 97);
+}
 /************************* NAVIGATIEBALK *************************/
 
 /* navigatiebalk voor alle pagina's */
@@ -90,7 +92,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #7daf79;
   overflow: hidden;
 }
 
@@ -107,11 +109,11 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #62b950;
 }
 
 nav li a.active {
-  background-color: skyblue;
+  background-color: #4a863c;
 }
 
 
@@ -129,7 +131,7 @@ nav li a.active {
   width: 450px;
 }
 #oorsprong{
-  background-color: rgb(118,214,97);
+  background-color: rgb(125, 175, 121);
   width:70%;
   height: 200px;
   overflow:auto;
@@ -140,15 +142,22 @@ nav li a.active {
 }
 #titel-oorsprong{
 border-style: solid;
+  color: rgb(74, 139, 60);
+  background-color: rgb(220, 219, 219)
 }
 #wat-is-irish-tapdance{
   border-style: solid;
   color: rgb(74, 139, 60);
+  background-color: rgb(220, 219, 219)
  
 }
 #home:hover{
   background-color: rgb(118,214,97)
 
+}
+#filmpje{
+  float: left;
+  margin-left: 70px;
 }
 /************************* SUBPAGINA *************************/
 
