@@ -159,7 +159,19 @@ border-style: solid;
   float: left;
   margin-left: 70px;
 }
-/************************* SUBPAGINA *************************/
+#tekst-filmpje{
+  float: left;
+  margin-left: 70px;
+ border-style: outset;
+background-color: rgb(158, 202, 155);
+
+}
+#schoenen{
+  float: right;
+  ;
+  
+}
+  /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
 
