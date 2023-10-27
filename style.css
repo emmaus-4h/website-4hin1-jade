@@ -178,6 +178,27 @@ background-color: rgb(158, 202, 155);
 
 /* Indeling en opmaak voor subpagina */
 #let-op{
-  color: red
+  color: red;
+  border: 1px solid grey ;
+  font-family: cursive;
 }
+.fotos {
+  display: block;
+  width:200px;
+  border: 10px groove rgb(204, 204, 204);
+   margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  background-color: #e3e3e3;
+}
+
+.fotos img {
+  width:100%;
+ 
+}
+
+}
+}
+
 /* verzin deze zelf... */
