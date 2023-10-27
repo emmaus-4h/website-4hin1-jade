@@ -177,5 +177,7 @@ background-color: rgb(158, 202, 155);
   /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
-
+#let-op{
+  color: red
+}
 /* verzin deze zelf... */
