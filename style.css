@@ -168,9 +168,12 @@ background-color: rgb(158, 202, 155);
 }
 #schoenen{
   float: right;
-  ;
+
+   /* hoe verstel ik de hoogte van het plaatje bovenaan de pagina zodat hij gelijk staat met de paginalinks? */
   
 }
+
+
   /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
