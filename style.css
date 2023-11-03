@@ -5,8 +5,8 @@
    zodat je de afmeting goed kunt zien, 
    let op 1: dit kan de layout soms kan wijzigen 
    let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
-/*  * {border: 1px dotted black;}   */
-  
+ /* * {border: 1px dotted black;}  */
+
 /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
    hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
    letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
@@ -84,6 +84,8 @@ a:hover {                         /* <a> als je er met de muis op staat */
 .belangrijk{
 color: rgb(100, 143, 97);
 }
+
+
 /************************* NAVIGATIEBALK *************************/
 
 /* navigatiebalk voor alle pagina's */
@@ -98,6 +100,18 @@ nav ul {                        /* <ul> die child is van <nav> */
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
   float: left;
+}
+
+li.menu_logo {
+  overflow:hidden; /* nodig om te zorgen dat de li niet hoogte 0 krijgt, maar de hoogte van de float die erin zit */
+  float: right;
+  height: 46px;
+}
+
+li.menu_logo img {
+  width:100%;
+  height:100%;
+  margin:0px;
 }
 
 nav li a {
@@ -115,7 +129,15 @@ nav li a:hover {
 nav li a.active {
   background-color: #4a863c;
 }
-
+ul {
+  
+  color: #7daf79;
+  border:1px solid;
+}
+/* hier ben je gebleven*/
+<a href="http://www.dpfc.nl" target="_blank">
+ <img src="" width="250" height="156" style="border:0;">
+</a>
 
 /************************* HOOFDPAGINA *************************/
 
@@ -148,7 +170,8 @@ border-style: solid;
 #wat-is-irish-tapdance{
   border-style: solid;
   color: rgb(74, 139, 60);
-  background-color: rgb(220, 219, 219)
+  background-color: rgb(220, 219, 219);
+ margin-top: 10px;
  
 }
 #home:hover{
@@ -158,6 +181,7 @@ border-style: solid;
 #filmpje{
   float: left;
   margin-left: 70px;
+
 }
 #tekst-filmpje{
   float: left;
@@ -168,6 +192,9 @@ background-color: rgb(158, 202, 155);
 }
 #schoenen{
   float: right;
+  display: inline;
+  
+  
 
    /* hoe verstel ik de hoogte van het plaatje bovenaan de pagina zodat hij gelijk staat met de paginalinks? */
   
@@ -185,12 +212,12 @@ background-color: rgb(158, 202, 155);
 .fotos {
   display: block;
   width:200px;
-  border: 10px groove rgb(204, 204, 204);
+  border: 10px groove rgb(119, 193, 113);
    margin-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
 
-  background-color: #e3e3e3;
+
 }
 
 .fotos img {
