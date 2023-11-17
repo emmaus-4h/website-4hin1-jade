@@ -18,17 +18,17 @@
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 * {                               /* geldt voor alles */
-  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
-  margin: 0px;                    /* standaard marge 0 pixels */
+ box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+ margin: 0px;                    /* standaard marge 0 pixels */
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+ background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+ color: #303030;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
-  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
+ overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
                                      (anders tellen de floats erin niet mee voor de hoogte
                                      en wordt dus wel eens hoogte 0) */
 }
@@ -39,50 +39,50 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 10 pixels marge,
+ width: 700px;                   /* vaste breedte van 700 pixels */
+ margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
 header, footer {                  /* geldt voor header en footer */
-  margin: 10px 0px;
+ margin: 10px 0px;
 }
 
 
 main {                       
-  text-align: justify;            /* tekst links en rechts uitvullen */
+ text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
-  margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
-  color: skyblue;
+ margin: 10px 0px;
+ text-align: center;             /* tekst centreren */
+ color: skyblue;
 } 
 
 p {
-  margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+ margin: 10px 0px;
+ text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
 img {
-  margin: 10px 0px;
+ margin: 10px 0px;
 }
 
 a {
-  color: skyblue;
-  text-decoration: none;
+ color: skyblue;
+ text-decoration: none;
 }
 
 a:hover {                         /* <a> als je er met de muis op staat */
-  text-decoration: underline;
+ text-decoration: underline;
 }
 
 .smalltext {
-  text-align: center;
-  font-size: 0.7em;
+ top: center;
+ font-size: 0.7em;
 }
 .belangrijk{
-color: rgb(100, 143, 97);
+ color: rgb(100, 143, 97);
 }
 
 
@@ -91,53 +91,49 @@ color: rgb(100, 143, 97);
 /* navigatiebalk voor alle pagina's */
 
 nav ul {                        /* <ul> die child is van <nav> */
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-  background-color: #7daf79;
-  overflow: hidden;
+ list-style-type: none;
+ margin: auto;
+ padding: 0px;
+ background-color: #7daf79;
+ overflow: hidden;
 }
 
 nav ul li {                     /* <li> die child is van <ul> die op zijn beurt child is van <nav> */
-  float: left;
+ float: left;
 }
 
 li.menu_logo {
-  overflow:hidden; /* nodig om te zorgen dat de li niet hoogte 0 krijgt, maar de hoogte van de float die erin zit */
-  float: right;
-  height: 46px;
+ overflow:hidden; /* nodig om te zorgen dat de li niet hoogte 0 krijgt, maar de hoogte van de float die erin zit */
+ float: right;
+ height: 46px;
+
 }
 
 li.menu_logo img {
-  width:100%;
-  height:100%;
-  margin:0px;
+ width:100%;
+ height:100%;
+ margin:0px;
 }
 
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #62b950;
+ background-color: #62b950;
 }
 
 nav li a.active {
-  background-color: #4a863c;
+ background-color: #4a863c;
 }
 ul {
-  
-  color: #7daf79;
-  border:1px solid;
+ color: #7daf79;
+ border:1px solid;
 }
-/* hier ben je gebleven*/
-<a href="http://www.dpfc.nl" target="_blank">
- <img src="" width="250" height="156" style="border:0;">
-</a>
 
 /************************* HOOFDPAGINA *************************/
 
@@ -149,50 +145,50 @@ ul {
 
 
 .item-tekst {
-  float: right;
-  width: 450px;
+ float: right;
+ width: 450px;
 }
 #oorsprong{
-  background-color: rgb(125, 175, 121);
-  width:70%;
-  height: 200px;
-  overflow:auto;
-  float: left;
-  margin-left:100px;
-  margin-bottom: 6px;
+ background-color: rgb(125, 175, 121);
+ width:70%;
+ height: 200px;
+ overflow:auto;
+ float: left;
+ margin-left:100px;
+ margin-bottom: 6px;
   
 }
 #titel-oorsprong{
-border-style: solid;
-  color: rgb(74, 139, 60);
-  background-color: rgb(220, 219, 219)
+ border-style: solid;
+ color: rgb(74, 139, 60);
+ background-color: rgb(220, 219, 219)
 }
 #wat-is-irish-tapdance{
-  border-style: solid;
-  color: rgb(74, 139, 60);
-  background-color: rgb(220, 219, 219);
+ border-style: solid;
+ color: rgb(74, 139, 60);
+ background-color: rgb(220, 219, 219);
  margin-top: 10px;
  
 }
 #home:hover{
-  background-color: rgb(118,214,97)
+ background-color: rgb(118,214,97)
 
 }
 #filmpje{
-  float: left;
-  margin-left: 70px;
+ float: left;
+ margin-left: 70px;
 
 }
 #tekst-filmpje{
-  float: left;
-  margin-left: 70px;
+ float: left;
+ margin-left: 70px;
  border-style: outset;
-background-color: rgb(158, 202, 155);
+ background-color: rgb(158, 202, 155);
 
 }
 #schoenen{
-  float: right;
-  display: inline;
+ float: right;
+ display: inline;
   
   
 
@@ -204,26 +200,41 @@ background-color: rgb(158, 202, 155);
   /************************* SUBPAGINA *************************/
 
 /* Indeling en opmaak voor subpagina */
-#let-op{
-  color: red;
-  border: 1px solid grey ;
-  font-family: cursive;
+#let-op{ 
+ color: red;
+ border: 1px solid grey ;
+ font-family: cursive;
 }
 .fotos {
-  display: block;
-  width:200px;
-  border: 10px groove rgb(119, 193, 113);
-   margin-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+ display: block;
+ width:200px;
+ border: 10px groove rgb(119, 193, 113);
+ margin-top: 10px;
+ padding-right: 10px;
+ padding-left: 10px;
 
 
 }
 
 .fotos img {
-  width:100%;
+ width:100%;
  
 }
+/* hier ben je gebleven*/
+#wedstrijden{
+ border-style: solid;
+ color: rgb(74, 139, 60);
+ background-color: rgb(220, 219, 219);
+ margin-top: 10px;
+}
+.beschrijving{
+ font-family: fantasy;
+}
+#st-patrick{
+ border-style: solid;
+ color: rgb(74, 139, 60);
+ background-color: rgb(220, 219, 219);
+ margin-top: 10px;
 
 }
 }
