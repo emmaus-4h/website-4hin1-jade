@@ -202,7 +202,8 @@ ul {
 /* Indeling en opmaak voor subpagina */
 #let-op{ 
  color: red;
- border: 1px solid grey ;
+ border: 1px dashed #000000 ;
+  padding-left: 10px;
  font-family: cursive;
 }
 .fotos {
@@ -212,31 +213,29 @@ ul {
  margin-top: 10px;
  padding-right: 10px;
  padding-left: 10px;
-
-
 }
 
 .fotos img {
  width:100%;
  
 }
-/* hier ben je gebleven*/
-#wedstrijden{
- border-style: solid;
- color: rgb(74, 139, 60);
- background-color: rgb(220, 219, 219);
- margin-top: 10px;
-}
+
 .beschrijving{
  font-family: fantasy;
-}
-#st-patrick{
- border-style: solid;
- color: rgb(74, 139, 60);
- background-color: rgb(220, 219, 219);
- margin-top: 10px;
 
 }
+.titels{
+  border-style: solid;
+   color: rgb(74, 139, 60);
+   background-color: rgb(220, 219, 219);
+   margin-top: 10px;
+}
+#st-patricksfoto{
+  border: 10px groove rgb(46, 115, 33);
+}
+#link-ierse-muziek{
+  border-style: dotted;
+  color: rgb(238, 58, 58)
 }
 
 /* verzin deze zelf... */
