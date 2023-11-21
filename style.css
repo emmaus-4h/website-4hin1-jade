@@ -237,5 +237,11 @@ ul {
   border-style: dotted;
   color: rgb(238, 58, 58)
 }
+#link-spotify{
+  color: rgb(100, 143, 97);
+}
+#link-spotify:hover{
+  color: rgb(35, 80, 32);
+}
 
 /* verzin deze zelf... */
