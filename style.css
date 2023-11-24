@@ -243,5 +243,13 @@ ul {
 #link-spotify:hover{
   color: rgb(35, 80, 32);
 }
-
+ /* hier ben je gebleven */
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+   
+}
+#eye-cacher{
+  background-image: url("afbeeldingen/wedstrijden.jpeg");
+}
 /* verzin deze zelf... */
