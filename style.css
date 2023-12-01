@@ -249,7 +249,21 @@ ul {
   margin: 50px;
    
 }
-#eye-cacher{
-  background-image: url("afbeeldingen/wedstrijden.jpeg");
+.eye-catcher{
+  float: center;
+  padding: 20px;
+  transition:1s;
+}
+.eye-catcher:hover{
+  transform: rotate(10deg);
+}
+#soortendanstekst{
+  border: dotted green 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+}
+  
 }
 /* verzin deze zelf... */
